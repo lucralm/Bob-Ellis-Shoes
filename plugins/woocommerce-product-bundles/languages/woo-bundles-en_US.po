@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Bundles v2.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-08-22 11:41:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/class-wc-product-bundle.php:184
+#: classes/class-wc-product-bundle.php:413
+#: classes/class-wc-product-bundle.php:422
+#: classes/class-wc-product-bundle.php:453
+#: classes/class-wc-product-bundle.php:459
+#@ woocommerce
+msgid "Free!"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1514
+#@ woocommerce
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce-product-bundles.php:451
+#@ woocommerce
+msgid "View options"
+msgstr ""
+
+#: templates/single-product/add-to-cart/bundle.php:178
+#@ woocommerce
+msgid "Add to cart"
+msgstr ""
+
+#: templates/single-product/add-to-cart/bundle.php:100
+#@ woocommerce
+msgid "Choose an option"
+msgstr ""
+
+#: templates/single-product/add-to-cart/bundle.php:134
+#@ woocommerce
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1230
+#: woocommerce-product-bundles.php:1295
+#@ woo-bundles
+msgid "Bundled Products"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1249
+#: woocommerce-product-bundles.php:1278
+#@ woo-bundles
+msgid "Per-Item Pricing"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1259
+#: woocommerce-product-bundles.php:1271
+#@ woo-bundles
+msgid "Non-Bundled Shipping"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1308
+#@ woo-bundles
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1374
+#@ woo-bundles
+msgid "Filter Variations"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1437
+#@ woo-bundles
+msgid "In effect for this bundle only. The available options are in sync with the filtering settings above. Always save any changes made above before configuring this section."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1482
+#@ woocommerce
+msgid "No default"
+msgstr ""
+
+#: woocommerce-product-bundles.php:250
+#: woocommerce-product-bundles.php:279
+#@ woocommerce
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1636
+#: woocommerce-product-bundles.php:1644
+#@ woocommerce
+msgid "View Cart &rarr;"
+msgstr ""
+
+#: woocommerce-product-bundles.php:569
+#: woocommerce-product-bundles.php:820
+#@ woo-bundles
+msgid "Included with"
+msgstr ""
+
+#: classes/class-wc-product-bundle.php:190
+#@ woo-bundles
+msgid "Total"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:147
+#@ woothemes
+msgid "WooThemes Updates"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:167
+#@ woothemes
+msgid "WooThemes Plugin Updater"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:174
+#@ woothemes
+msgid "WooThemes Username"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:178
+#@ woothemes
+msgid "WooThemes Password"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:187
+#@ woothemes
+msgid "Login"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:238
+#@ woothemes
+msgid "Switch WooThemes Account"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:240
+#, php-format
+#@ woothemes
+msgid "You are currently logged in as %1$s. To switch to a different WooThemes account, please fill in the login details below."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:243
+#@ woothemes
+msgid "Update your Plugins"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:250
+#@ woothemes
+msgid "Login Error"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:252
+#@ woothemes
+msgid "The login details supplied are invalid. Please try again."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:262
+#@ woothemes
+msgid "Enable WooThemes Plugin Updates."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:264
+#, php-format
+#@ woothemes
+msgid "Please <a href=\"%1$s\">login</a> to enable automatic plugin updates."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:277
+#@ woothemes
+msgid "Hide This Message"
+msgstr ""
+
+#: woocommerce-product-bundles.php:657
+#@ woo-bundles
+msgid "Price not set"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1029
+#: woocommerce-product-bundles.php:1076
+#, php-format
+#@ woo-bundles
+msgid "'%s' (#%s) is sold individually and cannot be bundled more than once."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1085
+#, php-format
+#@ woo-bundles
+msgid "The quantity you entered for '%s%s' (#%s) was not valid and has been reset. Please enter a positive integer value."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1110
+#@ woo-bundles
+msgid "Please select <strong>at least one variation</strong> for each bundled product you want to filter."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1163
+#, php-format
+#@ woo-bundles
+msgid "The '%s' default option that you selected for '%s%s' (#%s) is inconsistent with the set of active variations. Always double-check your preferences before saving, and always save any changes made to the variation filters before choosing new defaults."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1208
+#@ woo-bundles
+msgid "Please add <strong>at least one product</strong> to the bundle before publishing. To add products, click on the Bundled Products tab."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1223
+#@ woo-bundles
+msgid "Product bundle"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1239
+#: woocommerce-product-bundles.php:1302
+#@ woo-bundles
+msgid "Note"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1239
+#@ woo-bundles
+msgid "By default, the sale of a product within a bundle has the same effect on its stock as an individual sale. There are no separate inventory settings for bundled items. However, this pane can be used to enable stock management on a <strong>bundle level</strong>. This can be very useful for allocating bundle stock quota, or for keeping track of bundled item sales."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1249
+#@ woo-bundles
+msgid "When enabled, the bundle will be priced per-item"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1249
+#@ woo-bundles
+msgid "Instead of setting a static price for the whole bundle, let the bundled items define its price and sales status."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1259
+#@ woo-bundles
+msgid "Enable this option if the bundled items' shipping properties must be retained"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1259
+#: woocommerce-product-bundles.php:1272
+#@ woo-bundles
+msgid "If your bundle consists of items that are assembled or packaged together, leave the box un-checked and just define the shipping properties of the product bundle below. If, however, the bundled items are shipped individually, their shipping properties must be retained. In this case, the box must be checked. 'Non-Bundled Shipping' should also be selected when the bundle consists of virtual items, which are not shipped."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1279
+#@ woo-bundles
+msgid "When enabled, the bundle is priced per-item, based on standalone item prices."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1302
+#@ woo-bundles
+msgid "Select the products that you want to include in your bundle, kit, or assembly. Any simple or variable product can be added - physical, or downloadable.<br/><strong>Important</strong>: v2.0 has introduced the ability to bundle <strong>multiple instances of the same variable product</strong> and configure each instance separately - for details, check out the online documentation."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1340
+#: woocommerce-product-bundles.php:1563
+#@ woo-bundles
+msgid "Bundle Configuration"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1374
+#@ woo-bundles
+msgid "Check to enable only a subset of the available variations."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1408
+#@ woocommerce
+msgid "Any"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1430
+#@ woo-bundles
+msgid "Hide Filtered-Out Options"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1430
+#@ woo-bundles
+msgid "Check to remove any filtered-out variation options from this item's drop-downs. If you leave the box unchecked, the options corresponding to filtered-out variations will be disabled but still visible."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1437
+#@ woo-bundles
+msgid "Override Default Selections"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1520
+#@ woo-bundles
+msgid "Hide Product Thumbnail"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1520
+#@ woo-bundles
+msgid "Check this option to hide the thumbnail of this bundled product."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1526
+#@ woo-bundles
+msgid "Override Title"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1526
+#@ woo-bundles
+msgid "Check this option to override the default product title."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1536
+#@ woo-bundles
+msgid "Product Title"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1543
+#@ woo-bundles
+msgid "Override Short Description"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1543
+#@ woo-bundles
+msgid "Check this option to override the default short product description."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1553
+#@ woo-bundles
+msgid "Product Short Description"
+msgstr ""
+
+#: woocommerce-product-bundles.php:1564
+#@ woo-bundles
+msgid "To configure additional options, first select some products and then save your changes."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1619
+#, php-format
+#@ woo-bundles
+msgid "You cannot add that amount to the cart since there is not enough stock of \"%s\". We have %s in stock."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1622
+#, php-format
+#@ woo-bundles
+msgid "You cannot add this product to the cart since \"%s\" is out of stock."
+msgstr ""
+
+#: woocommerce-product-bundles.php:1636
+#: woocommerce-product-bundles.php:1644
+#, php-format
+#@ woo-bundles
+msgid "<a href=\"%s\" class=\"button\">%s</a>You cannot add that amount to the cart since there is not enough stock of \"%s\" &mdash; we have %s in stock and you already have %s in your cart."
+msgstr ""
+

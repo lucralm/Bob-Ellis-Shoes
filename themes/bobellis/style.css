@@ -1,0 +1,9 @@
+
+/*
+Theme Name: Bob Ellis Child Theme
+Description: Bob Ellis' WooCommerce theme 
+Author: Seth Rubenstein
+Template: mystile
+*/
+@import url("../mystile/style.css");
+@import url("theme.css");

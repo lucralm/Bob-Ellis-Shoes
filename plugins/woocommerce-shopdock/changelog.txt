@@ -1,0 +1,16 @@
+*** Shopdock ***
+
+2013.01.29 - version 1.0.4
+ * Added title attribute to links in shopdock cart
+ * Other WC 2.0 tweaks
+ * View button for non-simple products
+
+2012.12.06 - version 1.0.3
+ * Revised add to cart JS
+ * WC 2.0 compat
+
+2012.12.06 - version 1.0.2
+ * No variable pop up
+
+2012.12.04 - version 1.0.1
+ * New updater

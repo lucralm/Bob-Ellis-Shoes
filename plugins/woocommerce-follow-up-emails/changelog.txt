@@ -1,0 +1,98 @@
+*** WooCommerce Follow-Up Emails ***
+
+2013.02.12 - version 2.2.2
+ * Fixed parameter counts to better capture statuses
+ * Improved (beta) support for custom statuses
+
+2013.02.04 - version 2.2.1
+ * Fixed bug to save custom coupon variables
+ * Initial (beta) support for custom statuses (http://wordpress.org/extend/plugins/woocommerce-custom-statuses/)
+
+2013.01.26 - version 2.2
+ * 2.0 compatibility
+ * various bug fixes
+ * wysiwyg fixes to hopefully avoid plugin conflicts
+ * random happiness
+
+2013.01.16 - version 2.1.9
+ * Fix for on-hold orders set to processing
+
+2012.12.19 - version 2.1.8
+ * Fixed TinyMCE errors
+ 
+2012.12.17 - version 2.1.7
+ * Fixed Google Analytics not appending
+ * Fixed latter series emails not sending
+
+2012.12.04 - version 2.1.6
+ * New updater
+
+2012.10.18 - version 2.1.5
+ * Bug fix
+
+2012.10.16 - version 2.1.4
+ * Fixed bug when no categories are assigned to products, and no specific product emails are defined
+ * Minor tweaks
+
+2012.10.15 - version 2.1.3
+ * Addition of support for all standard WooCommerce status changes
+
+2012.10.12 - version 2.1.2
+ * Minor bug fixes
+
+2012.10.03 - version 2.1.1
+ * Minor bug fixes
+
+2012.10.02 - version 2.1
+ * Fixed inability to select coupon, and updated coupon interface
+ * Added user detail report - see every email each customer receives by customer
+ * Added support for reminder emails with dynamic text/variables
+ * Added new email type - on user sign-up
+ * Added ability to define email addresses to receive daily send activity emails
+
+2012.09.01 - version 2.0
+ * Better sorting of email types
+ * Added all product (storewide) emails
+ * Added email type that always sends to customers
+ * Added custom email sorting and prioritization
+ * Added support for sending emails for abandoned carts for logged-in users
+ * Added logic to identify potentially duplicate emails from being created
+ * Added minute, week, month, year, and specific date intervals for sending emails
+ * Added support for WC Subscriptions on activation, deactivation, and expiration
+ * Added ability to recognize and send emails on first purchase by customer
+ * Added coupon feature to automate coupon creation and insertion into emails
+ * Added reporting features tracks sends, opens, clicks, and coupon usage
+ * Added order date variable
+ * Added order number variable
+ * Added support to include custom fields as variables
+ * Bug fixes
+ * Display updates
+
+2012.07.25 - version 1.1.6
+ * Fixed non-send errors
+ * Fixed admin styling
+
+2012.07.24 - version 1.1.5
+ * Fixed bug in email sending queue when no categories are set
+
+2012.07.23 - version 1.1.4
+ * Change script loader for WooCommerce 1.6+ support
+
+2012.07.03 - version 1.1.3
+ * Bug fixes
+
+2012.06.20 - version 1.1.2
+ * Bug fixes for order statuses
+ * Updated to check for new orders hourly instead of daily
+
+2012.06.18 - version 1.1.1
+ * Bug fixes on install
+
+2012.06.16 - version 1.1
+ * Added support for setting emails to send at hour intervals
+ * Added customer first name variable
+ * Added ability to set emails for a category
+ * Added ability to define sending of email XX days after purchase or after order completion
+
+2012.05.24 - version 1.0
+ * First release

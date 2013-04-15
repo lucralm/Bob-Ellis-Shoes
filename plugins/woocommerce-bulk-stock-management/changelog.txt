@@ -1,0 +1,41 @@
+*** Bulk Stock Management Changelog ***
+
+2013.01.11 - version 1.8.0
+ * WC 2.0 Compat
+
+2012.12.04 - version 1.7.2
+ * New updater
+
+2012.09.19 - version 1.7.1
+ * Fix any category filter
+
+2012.09.19 - version 1.7
+ * Removed confusing N/A Labels
+ * Sort by meta_value_num to fix quantity based sorting
+
+2012.09.19 - version 1.6.1
+ * Filter by category
+
+2012.06.29 - version 1.6
+ * Bulk edit backorder settings
+
+2012.06.29 - version 1.5
+ * More ordering tweaks for the report itself - parents are shown with variations
+ * Correctly show parent sku if variation sku is blank
+ * Only show variation title when not nested under parent (on report)
+
+2012.06.29 - version 1.4.1
+ * get_sku()
+ * Change report ordering
+
+2012.06.29 - version 1.4
+ * Show attributes in report
+
+2012.04.26 - version 1.3
+ * Fix conflict with amazon s3 storage
+
+2012.04.17 - version 1.2
+ * Display variation attributes in the list
+
+2012.03.29 - version 1.0
+ * First Release

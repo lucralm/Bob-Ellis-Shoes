@@ -1,0 +1,96 @@
+#product_addons {
+	textarea.import, textarea.export {
+		width: 100%;
+		display: none;
+	}
+	a.export, a.import {
+		width: 10px;
+		height: 0;
+		padding: 10px 0 0 0;
+		margin: 0 0 0 5px;
+		float: right;
+		overflow: hidden;
+	}
+	a.export {
+		background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAARUlEQVQYlWOsqqr6z4AEWltbGRmwACZsgngVtra2MqKbVl1d/R9DIS4AU8yCywR0caLdiGIiLje2trYyEjQRppmR6uEIADwwHBF0Tz+MAAAAAElFTkSuQmCC) no-repeat top left;
+	}
+	a.import {
+		background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATElEQVQYla2QMQ7AMAgD7aqvhtnvpksiJdSKOpQRzHGCVQVXmbkNLpsy9QpOkiRK4pHYzwIAI8JLDupc+ux4rx7dce1bYg8BAH//4wOHsCB7eMCC4gAAAABJRU5ErkJggg==) no-repeat top left;
+	}
+}
+.woocommerce_addon {
+	margin: 0 0 9px;
+	border: 1px solid #DFDFDF;
+	background: white;
+	padding: 6px;
+	overflow: hidden;
+	zoom: 1;
+	opacity:0.75;
+	p {
+		margin: 0 0 9px;
+	}
+	p.addon_name, p.addon_type {
+		width: 49%;
+		float: left;
+		&.addon_type {
+			float: right;
+		}
+		input, select {
+			width: 100%;
+			display: block;
+		}
+	}
+	p.addon_description {
+		clear: both;
+		input {
+			display: block;
+			width: 100%;
+		}
+	}
+	a.delete_addon {
+		padding: 6px 0 3px 0;
+		color: #999;
+		float: right;
+		text-align: right;
+	}
+	a.delete_addon:hover, a.delete_addon:focus {
+		color: red;
+	}
+	.handle {
+		padding: 6px 0 3px 0;
+		color: #999;
+		cursor: move;
+		float: left;
+	}
+}
+.woocommerce_addon:hover, .woocommerce_addon:focus {
+	opacity:1;
+}
+.woocommerce_addon_options {
+	width: 100%;
+	background: #ECECEC;
+	border: 1px solid #ECECEC;
+	th {
+		background: #ECECEC;
+		padding: 3px;
+		text-align: left;
+		font-size: 0.9em;
+		vertical-align: middle;
+	}
+	td {
+		padding: 3px;
+		background: #fff;
+		text-align: left;
+		cursor: move;
+		input {
+			width: 100%;
+		}
+	}
+	.actions {
+		text-align: right;
+		button {
+			font-family: sans-serif;
+			margin: 0;
+		}
+	}
+}

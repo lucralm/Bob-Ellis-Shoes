@@ -1,0 +1,103 @@
+table.wp-list-table span.product-type.bundle {
+	background-position-x: 0px;
+}
+
+.wc-bundled-item, .wc-bundled_products {
+	display: inline-block; padding-bottom: 10px; width: 100%; clear: both;
+}
+
+.wc-bundled_products .chzn-container-multi {
+	width: 100%!important;
+}
+
+.wc-bundled_products .bundled_products_selector {
+	float: left; width: 70%;
+}
+.wc-bundled-item .item-description {
+	float: left; padding: 18px 2%; width: 23%; line-height: 21px;
+}
+
+.wc-bundled_products .bundled_products_info {
+	float:left; padding: 5px 2%; width: 23%; line-height: 21px;
+}
+
+.wc-bundled-item .item-data {
+	float:left; position: relative; line-height:26px; padding:15px 4% 20px; width:62%; background:#fff; border-radius:4px; border:1px solid #DFDFDF;
+}
+
+.wc-bundled-item .item-data > div {
+	display: inline-block;
+	width: 100%;
+}
+
+.wc-bundled-item .item-data .indented {
+	padding-left: 5%;
+	width: 95%;
+}
+
+.wc-bundled-item .item-data label {
+	width: 45%;
+	margin-right: 0px;
+}
+
+.wc-bundled-item .item-data .indented label {
+	width: 40%;
+}
+
+.wc-bundled-item .item-data textarea, .wc-bundled-item .item-data input.product_title {
+	height: inherit;
+	width: 60%;
+}
+
+.wc-bundled-item .item-data .bundle_quantity {
+	width: 43px;
+}
+
+#woocommerce-product-data .woocommerce_options_panel .wc-bundled-item .item-data > div p {
+	margin: 0;
+	padding-left: 0!important;
+	padding-right: 0!important;
+	line-height: 24px;
+	clear: both;
+}
+
+#bundled_product_data .help_tip, .bundle_stock_msg .help_tip {
+	width: 16px;
+	height: 16px;
+}
+
+.wc-bundled-item .checkbox {
+	margin: 5px 0;
+}
+
+.wc-bundled-item .item-data > div p.hide_filtered_variations {
+	padding-top: 10px;
+}
+
+.wc-bundled-item .item-data .bundle_selection_defaults select {
+	margin: 0 10px 10px 0;
+}
+
+.wc-bundled-item .item-data .chzn-container-multi { width: 100%!important; }
+
+.wc-bundled-item .item-data:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	margin: 0 0 0 -1px;
+	border: 7px solid #DFDFDF;
+	border-color: transparent transparent transparent #DFDFDF;
+}
+
+.wc-bundled-item .item-data:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 21px;
+	left: 0;
+	margin: 0 0 0 -1px;
+	border: 6px solid whiteSmoke;
+	border-color: transparent transparent transparent whiteSmoke;
+}

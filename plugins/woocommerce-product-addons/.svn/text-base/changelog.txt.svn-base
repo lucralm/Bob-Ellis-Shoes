@@ -1,0 +1,22 @@
+*** Product Addons Changelog ***
+
+2012.12.04 - version 1.1.1
+* New updater
+
+2012.26.01 - version 1.1
+ * Required fields
+ * Textarea field type
+ * File upload field type
+ * Import/export forms between products
+ * Validation hook - woocommerce_validate_posted_addon_data
+
+2012.26.01 - version 1.0.2
+ * Small plugin header update
+ * Strip tags from prices/meta
+
+2011.12.1 - version 1.0.1
+ * Woo Updater
+ * Hook change
+
+2011.11.17 - version 1.0
+ * First Release

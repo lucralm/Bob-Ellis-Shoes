@@ -1,0 +1,51 @@
+*** WooCommerce Smart Coupons Changelog ***
+
+2013.01.30 - version 1.2.6
+ * Update: Compatible version for both WooCommerce 1.6.6 & 2.0.0
+ * Fix: Customer not getting full usage of the coupon which they have received after purchasing multiple quantities of the product
+
+2012.12.27 - version 1.2.5
+ * Fix: Products configured for 'Store Credit of any amount' was getting added with price zero, when it was getting added from Catalog/Shop page
+
+2012.12.19 - version 1.2.4
+ * Fix for notices
+
+2012.12.10 - version 1.2.3
+ * Fix: Store Credit once applied, is not getting removed
+ * Fix: Unable to bring coupon's list in auto-complete text-field, when associating coupons to product
+ * Fix: Store Credit / Gift Certificate is added to cart with price zero
+
+2012.12.04 - version 1.2.2
+ * New updater
+
+2012.11.20 - version 1.2.1
+ * Updated: Better localisation compatibility for the plugin - separate text domain
+ * Updated: Currency symbol added when user enters the amount for a gift certificate of any denomination
+
+2012.11.19 - version 1.2
+ * New: Allow purchasing gift certificates / store credits of any denomination
+  (compatible with "WooCommerce Name Your Price" plugin too)
+ * New: Feature to Send Store Credit / Gift Certificate to multiple people
+ * New: Additional setting to change subject of E-mail containing Coupon Codes
+ * Removed: "Apply Before Tax" option for Store Credit / Gift Certificate
+ * Updated: URL for store that is included in e-mails
+ * Fix: Expiry date of generated coupons getting set to 1970
+
+
+2012.10.19 - version 1.1.1
+ * Small case change
+
+2012.10.11 - version 1.1
+ * New: Bulk Import for Coupons
+ * New: Automatic Generation of Coupons
+ * New: Support for adding prefix & suffix to automatically generated coupons
+ * New: "Duplicate Coupon"
+ * New: Send Store Credit / Gift Certificate
+ * New: Support for searching a coupon using Customer's e-mail address
+ * Updated: Notify customer about balance remaining in Store Credit / Gift Certificate in "Order Completed" e-mail
+ * Updated: Link to the store is included in e-mails
+ * Fixed: "Order stays in processing state & never completes" problem
+
+
+2012.08.07 - version 1.0
+ * First release

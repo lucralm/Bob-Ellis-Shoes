@@ -1,0 +1,21 @@
+*** Brands Changelog ***
+
+2013.01.18 - version 1.1.0
+ * WC 2.0 compat
+ * WP 3.5 media uploaders (requires 3.5)
+
+2012.12.14 - version 1.0.4
+ * Fix dropdown layered nav when viewing a brand archive.
+ * Added 'brand-thumb' image size for use in the Brand Thumbnails shortcode / widget
+
+2012.12.05 - version 1.0.3
+ * Fix dropdown layered nav urls
+
+2012.12.04 - version 1.0.2
+ * New updater
+
+2012.11.26 - version 1.0.1
+ * Fix array merge
+
+2012.11.08 - version 1.0
+ * First Release

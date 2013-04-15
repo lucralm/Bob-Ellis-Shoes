@@ -1,0 +1,117 @@
+*** WooCommerce Product Bundles ***
+
+2013.2.1 - version 2.53
+ * Fix - No more issues when 'bundle' term already exists.
+
+2013.1.28 - version 2.52
+ * Fix - Some action hooks renamed to filter hooks.
+
+2013.1.23 - version 2.51
+ * Fix - 'Choose product options' error with 'any' type variations fixed.
+
+2013.1.5 - version 2.50
+ * Tweak - Bundle JS now relies on variation JS.
+ * Tweak - Stylesheets added, templates revised.
+
+2012.12.25 - version 2.41
+ * Fix - Inventory Tab disappeared in WooCommerce v2.
+ * Fix - Admin error message for per-item priced bundles with zero items.
+
+2012.12.25 - version 2.40
+ * Tweak - Added support for WooCommerce v2.
+
+2012.12.18 - version 2.30
+ * Fix - Moved add-to-cart JS to bundle template.
+ * Tweak - Add-to-cart JS updated to work with multiple bundles on the same page.
+
+2012.12.11 - version 2.28
+ * Tweak - Compatibility tweaks with Dynamic Pricing.
+
+2012.12.04 - version 2.27
+ * New updater
+
+2012.11.29 - version 2.26
+ * Fix - Dropped support for product add-ons in bundled items until further notice.
+
+2012.11.25 - version 2.25
+ * Fix - Cart session data is now retrieved properly (per product pricing / shipping issues).
+ * Fix - Bundle uniqueness in the cart is now dependent on the selected options, not the selected variations.
+
+2012.11.12 - version 2.24
+ * Tweak - Shop catalog 'View Options' button changed to 'Add to Cart' when a bundle contains simple items only.
+ * Fix - Fixed mini-cart item count: With per-product pricing on, bundled items are not added to the item count.
+
+2012.10.4 - version 2.23
+ * General cleanup + maintenance.
+
+2012.09.16 - version 2.22
+ * Fix - Wrong out of stock messages when only 1 bundled item is in stock.
+
+2012.09.14 - version 2.20
+ * Feature - Ability to control the visibility of bundled items on the front-end.
+ * Tweak - Bundle availability shows as 'out of stock' if it contains out of stock items.
+
+2012.08.23 - version 2.11
+ * Tweak - Bundle js attr_name fix.
+
+2012.08.22 - version 2.10
+ * Tweak - Bundle js updated.
+ * Tweak - Title support added to images.
+
+2012.08.15 - version 2.05
+ * Feature - Bundled items now support Product Addons.
+ * Feature - It's now possible to hide any filtered-out variation options from the bundled item front-end drop-downs.
+ * Fix - Bundled item featured images now appear correctly when container item featured image is not set - thanks, Adam!
+ * Fix - Number of filtered variations must be greater than zero.
+
+ * Important: The template files have been modified - keep note if your theme overrides any of them!
+
+2012.08.12 - version 2.04
+ * Tweak - Simplified bundle-add-to-cart js and php.
+ * Tweak - 'Per-Item Pricing' moved to 'Product Bundle' type shipping options.
+ * Fix - Minor admin writepanel js fixes.
+
+2012.08.11 - version 2.03
+ * Fix - 'Product Bundle' type shipping option restored.
+
+2012.08.10 - version 2.02
+ * Fix - Individually sold quantity product bug fixed.
+
+2012.08.9 - version 2.0
+ * Feature - Bundle multiple instances of variable items.
+ * Feature - Override bundled item single-page titles.
+ * Feature - Override bundled item single-page excerpts.
+ * Fix - Mini-cart item count fixed.
+ * Fix - Mini-cart price fixed.
+
+2012.08.2 - version 1.31
+ * Tweak - Attributes of variable bundled items that correspond to filtered-out variations are now hidden.
+
+2012.07.29 - version 1.3
+ * Feature - Added dynamic bundled product images and option to disable them per-item.
+
+2012.07.26 - version 1.23
+ * Fix - Allow tax settings to be modified when bundle pricing is static.
+
+2012.07.06 - version 1.22
+ * Fix - Better compatibility with other plugins.
+ * Tweak - Code significantly cleaned up.
+ * Tweak - Removed /loop/add-to-cart.php template file override.
+
+2012.07.03 - version 1.20
+ * Feature - Ability to define quantities for bundled items.
+ * Tweak - New bundled products tab.
+ * Fix - Bundle add-to-cart behavior when all bundled items are sold individually.
+
+2012.06.29 - version 1.10
+ * Feature - Manage stock on a bundle-level.
+ * Tweak - Add-to-cart template term name hooks.
+
+2012.06.29 - version 1.02
+ * Fix - Cart actions moved to the right places.
+ * Fix - Non-published bundled items should be hidden.
+ * Fix - Include out of stock simple items in bundle price calculation.
+ * Fix - Product availability status.
+
+2012.06.26 - version 1.01
+ * Initial release

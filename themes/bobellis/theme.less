@@ -1,0 +1,88 @@
+/*
+Theme Name: Bob Ellis Child Theme
+Description: Bob Ellis's WooCommerce theme 
+Author: Seth Rubenstein
+Template: mystile
+*/
+
+@sneaker: #E8193A;
+
+@import url("../mystile/style.css");
+
+.flush {
+	margin-left: -50px;
+	margin-right: -50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	@media only screen and (max-width: 760px) {
+		margin-left: -22px!important;
+		margin-right: -22px!important;
+		padding-left: 25px;
+		padding-right:  25px;
+	}
+}
+.flush-with-padding {
+	margin-left: -30px;
+	margin-right: -30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#header {
+	padding-bottom: 0px!important;
+	#logo {
+		img {
+			max-height: 120px;
+		}
+	}
+	#navigation {
+		margin-bottom: 1em!important;
+		margin-top: 2.5em!important;
+		padding-right: 50px;
+	}
+	border-bottom: 3px solid @sneaker!important;
+}
+
+body.home {
+	#header {
+		margin-bottom: 0px!important;
+		border-bottom: 0px!important;
+	}
+}
+
+#about-sneakerff {
+	background-color: @sneaker;
+	* { color: #fff; }
+	padding-top: 40px;
+	//padding-bottom: 20px;
+	margin-bottom: 25px;
+}
+
+.product {
+	.onsale {
+		// padding: 0px!important;
+		// border: 1px solid red!important;
+		.sneaker-onsale {
+			// border: 2px solid #fff!important;
+			// border-radius: 100%;
+			// padding: 4px 15px;
+		}
+	}
+}
+
+#searchform {
+	#s {
+		border-radius: 50px!important;
+		text-align: center;
+	}
+}
+
+.woo-sc-quote {
+	// background-color: @sneaker!important;
+	// padding: 15px;
+	p  {
+		// color: #fff!important;
+		// font-size: 30px!important;
+	}
+}

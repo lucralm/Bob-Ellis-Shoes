@@ -1,0 +1,21 @@
+.social-button-container {
+    overflow: visible; 
+	clear: both;
+}
+
+.social-button {
+    width: 300px;
+    height: 25px;
+}
+
+.fb-like { z-index: 9999; }
+
+.fbpdl { 
+	z-index: 9999 !important; width:300px;
+	overflow: visible;
+}
+
+.fb-like span { 
+	z-index: 9999 !important; width:300px !important;
+	overflow: visible;
+} 

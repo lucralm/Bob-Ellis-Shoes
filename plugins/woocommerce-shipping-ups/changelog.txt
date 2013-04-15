@@ -1,0 +1,15 @@
+*** UPS Shipping ***
+
+2013.02.05 - version 2.0.2
+ * Updated WC_Boxpack classes to be in sync with other shipping methods.
+
+2013.02.01 - version 2.0.1
+
+ * Added environment check for no credentials, no packaging chosen or defined, and no services chosen.
+ * If packing method is set to "pack boxes" and no UPS packaging nor custom boxes defined will default to individual packing.
+ * Fixed weight calculation. Round up to nearest 1lb for package.
+ * Added better debug reporting when no rates returned.  This could be caused by requesting international rate when shipping domestically.
+ 
+2013.01.14 - version 2.0.0
+
+ * Complete rewrite using UPS's latest API
