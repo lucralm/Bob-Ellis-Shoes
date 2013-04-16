@@ -35,8 +35,6 @@ global $woo_options, $woocommerce;
 
 	<header id="header" class="col-full">
 
-
-
 	    <hgroup>
 
 	    	 <?php
@@ -77,5 +75,19 @@ global $woo_options, $woocommerce;
 		<?php woo_nav_after(); ?>
 
 	</header><!-- /#header -->
+
+	<div id="quick-nav" class="three-columns col-full">
+		<div class="col-third">
+			Have any questions? Call us 24/7
+		</div>
+		<div class="col-third">
+			Big Sale Only This Weekend
+		</div>
+		<div class="col-third">
+			Free Delivery On All UK Order
+		</div>
+	</div>
+
+
 
 	<?php woo_content_before(); ?>

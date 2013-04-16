@@ -5,10 +5,34 @@ Author: Seth Rubenstein
 Template: mystile
 */
 
-@sneaker: #E8193A;
+@bobellis-primary: #4D4D4D;
+@standard-margin: 25px;
 
-@import url("../mystile/style.css");
-
+.three-columns {
+	.col-third {
+		width: 33%;
+		float: left;
+		&:last-of-type {
+			&:after {
+				clear: both;
+			}
+		}
+	}
+}
+.two-columns {
+	.col-half {
+		width: 50%;
+		float: left;
+		&:last-of-type {
+			&:after {
+				clear: both;
+			}
+		}
+	}
+}
+.centered {
+	text-align: center;
+}
 .flush {
 	margin-left: -50px;
 	margin-right: -50px;
@@ -29,6 +53,7 @@ Template: mystile
 	padding-left: 30px;
 	padding-right: 30px;
 }
+//End of global utils
 #header {
 	padding-bottom: 0px!important;
 	#logo {
@@ -41,22 +66,55 @@ Template: mystile
 		margin-top: 2.5em!important;
 		padding-right: 50px;
 	}
-	border-bottom: 3px solid @sneaker!important;
+	border-bottom: 3px solid @bobellis-primary!important;
+	margin-bottom: @standard-margin!important;
 }
 
-body.home {
-	#header {
-		margin-bottom: 0px!important;
-		border-bottom: 0px!important;
-	}
+#quick-nav {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	.centered;
+	margin-bottom: @standard-margin;
+}
+
+#homepage-slider {
+	margin-bottom: @standard-margin;
 }
 
 #about-sneakerff {
-	background-color: @sneaker;
+	background-color: @bobellis-primary;
 	* { color: #fff; }
 	padding-top: 40px;
 	//padding-bottom: 20px;
 	margin-bottom: 25px;
+}
+
+#homepage-promo {
+	.col-half {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		* {
+			color: #fff!important;
+		}
+		h1,h2,h3 {
+			margin-bottom: 0px!important;
+		}
+		.centered;
+	}
+	.col-half:first-of-type {
+		padding-right: 1%;
+	}
+	.col-half:last-of-type {
+		padding-left: 1%;
+	}
+	.offer {
+		background-color: #FF4C4B;
+		padding: 4%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
 }
 
 .product {
@@ -85,4 +143,8 @@ body.home {
 		// color: #fff!important;
 		// font-size: 30px!important;
 	}
+}
+
+.footer-wrap {
+	margin-top: (@standard-margin*2)!important;
 }
