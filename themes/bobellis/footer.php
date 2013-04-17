@@ -72,5 +72,16 @@ jQuery(document).ready(function() {
 	jQuery('span.onsale').wrapInner('<div class="bobellis-onsale"></div>');
 });
 </script>
+<?php
+if(get_field('action_popups', 'options')):
+while(has_sub_field('action_popups', 'options')):
+?>
+<div id="<?php the_sub_field('action_id');?>" style="display:none;">
+<?php the_sub_field('popup_text');?> <a href="#" rel="modal:close">Close</a>
+</div>
+<?php 
+endwhile;
+endif;
+?>
 </body>
 </html>

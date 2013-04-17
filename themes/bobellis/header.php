@@ -76,18 +76,16 @@ global $woo_options, $woocommerce;
 
 	</header><!-- /#header -->
 
+	
+<?php if(get_field('call_to_actions', 'options')): ?>
 	<div id="quick-nav" class="three-columns col-full">
+		<?php while(has_sub_field('call_to_actions', 'options')): ?>
 		<div class="col-third">
-			Have any questions? Call us 24/7
+			<?php the_sub_field('main');?> <a href="#<?php the_sub_field('action_id');?>" rel="modal:open"><?php the_sub_field('action_text');?></a>
 		</div>
-		<div class="col-third">
-			Big Sale Only This Weekend
-		</div>
-		<div class="col-third">
-			Free Delivery On All UK Order
-		</div>
+		<?php endwhile; ?>
 	</div>
-
+<?php endif; ?>
 
 
 	<?php woo_content_before(); ?>
