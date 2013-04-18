@@ -7,7 +7,8 @@
 .modal.current{z-index:100!important;}
 #header{padding-bottom:0px!important;border-bottom:3px solid #4d4d4d !important;margin-bottom:25px !important;}#header #logo img{max-height:120px;}
 #header #navigation{margin-bottom:1em!important;margin-top:2.5em!important;padding-right:50px;}
-#quick-nav{border-top:1px solid #eee;border-bottom:1px solid #eee;padding-top:15px;padding-bottom:15px;text-align:center;margin-bottom:25px;}
+#breadcrumbs{margin-bottom:0px!important;}
+#quick-nav{border-top:1px solid #eee;border-bottom:1px solid #eee;padding-top:15px;padding-bottom:15px;text-align:center;margin-bottom:25px;}#quick-nav .col-third:nth-of-type(2){border-left:1px solid #d5d5d5;border-right:1px solid #d5d5d5;}
 #homepage-slider{margin-bottom:25px;}
 #about-sneakerff{background-color:#4d4d4d;padding-top:40px;margin-bottom:25px;}#about-sneakerff *{color:#fff;}
 #homepage-promo .col-half{box-sizing:border-box;-moz-box-sizing:border-box;text-align:center;}#homepage-promo .col-half *{color:#fff!important;}

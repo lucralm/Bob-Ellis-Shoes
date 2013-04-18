@@ -76,16 +76,18 @@ global $woo_options, $woocommerce;
 
 	</header><!-- /#header -->
 
-	
-<?php if(get_field('call_to_actions', 'options')): ?>
-	<div id="quick-nav" class="three-columns col-full">
-		<?php while(has_sub_field('call_to_actions', 'options')): ?>
-		<div class="col-third">
-			<?php the_sub_field('main');?> <a href="#<?php the_sub_field('action_id');?>" rel="modal:open"><?php the_sub_field('action_text');?></a>
-		</div>
-		<?php endwhile; ?>
+	<div class="col-full">
+		<?php bobellis_before_quick_nav();?>
 	</div>
-<?php endif; ?>
 
+	<?php if(get_field('call_to_actions', 'options')): ?>
+		<div id="quick-nav" class="three-columns col-full">
+			<?php while(has_sub_field('call_to_actions', 'options')): ?>
+			<div class="col-third">
+				<?php the_sub_field('main');?> <a href="#<?php the_sub_field('action_id');?>" rel="modal:open"><?php the_sub_field('action_text');?></a>
+			</div>
+			<?php endwhile; ?>
+		</div>
+	<?php endif; ?>
 
 	<?php woo_content_before(); ?>

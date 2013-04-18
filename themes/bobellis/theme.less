@@ -77,6 +77,10 @@ Template: mystile
 	margin-bottom: @standard-margin!important;
 }
 
+#breadcrumbs {
+	margin-bottom: 0px!important;
+}
+
 #quick-nav {
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
@@ -84,6 +88,12 @@ Template: mystile
 	padding-bottom: 15px;
 	.centered;
 	margin-bottom: @standard-margin;
+	.col-third {
+		&:nth-of-type(2) {
+			border-left: 1px solid darken(#eee,10%);
+			border-right: 1px solid darken(#eee,10%);
+		}
+	}
 }
 
 #homepage-slider {
