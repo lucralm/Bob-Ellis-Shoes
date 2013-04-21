@@ -1,0 +1,168 @@
+/* Modern styling  */
+
+
+/*---div that contains entire slider/carousel---*/ 
+.flexslider,
+.flexslider ul.slides {
+	padding:0;
+	margin:0;
+	}
+/*---style the li that contains each product--*/ 
+.flexslider ul.slides li {
+	list-style:none;
+	}
+.flexslider .psc-prod-details {
+	background: none repeat scroll 0 0 #000000;
+	margin-bottom: 30%;
+	margin-top: -38%;
+	opacity: 0.7;
+	padding-left: 4%;
+	width: 98%;
+	}
+/*---wrap to style the product image--*/ 
+.flexslider ul.slides li .psc-prod-container .img-wrap {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0 1px 2px 0 #E0E0E0;
+	-moz-box-shadow: 0 1px 2px 0 #E0E0E0;	 
+	-webkit-box-shadow:0 1px 2px 0 #E0E0E0;
+	}
+	.flexslider ul.slides li .psc-prod-container .img-wrap:hover {
+		border: 1px solid #CFCFCF;
+		-moz-box-shadow: 0 1px 2px 0 #CFCFCF;
+		-webkit-box-shadow: 0 1px 2px 0 #CFCFCF;
+		box-shadow: 0 1px 2px 0 #CFCFCF;
+		}
+		.flexslider ul.slides li .psc-prod-container .img-wrap img {
+			margin:0 auto;
+			}
+		/*---title of the product---*/ 
+		.flexslider span.title {
+			color: #FFF;
+			font-size:1.3em;
+			font-family:san-serif;
+			display: block;
+			}
+			.flexslider span.title a{
+				display: block;
+				}
+		/*---price of the product---*/ 
+		.flexslider span.amount {
+			color:#CCC;
+			display: inline;
+			}
+/*---ul containing the nav buttons/arrows---*/ 
+	.flexslider ul.flex-direction-nav li {
+	list-style:none;
+	}
+	/*---previous button/arrow---*/ 
+	.flexslider ul.flex-direction-nav a.prev {
+		background: url("../images/sliding-arrows.png") no-repeat scroll 0 0 transparent;
+		display: block;
+		height: 32px;
+		left: 0;
+		top:0;
+		margin-top:6%;
+		text-indent: -9999px;
+		width: 32px;
+		}
+	.flexslider ul.flex-direction-nav a.next {
+		background: url("../images/sliding-arrows.png") no-repeat scroll -32px 0 transparent;
+		display: block;
+		height: 32px;
+		right: 0;
+		top:0;
+		margin-top:6%;
+		text-indent: -9999px;
+		width: 32px;
+		}
+/*---styles determining width of the product div containers---*/ 
+.flexslider .one-slide {
+	float:left;
+	margin-left: 4%;
+    width: 92%;
+	}
+.flexslider .two-slides {
+    float: left;
+    margin-left: 5%;
+    width: 42.5%;
+	}
+.flexslider .three-slides {
+    float: left;
+    margin-left: 5%;
+    width: 26.6%;
+	}
+.flexslider .four-slides {
+    float: left;
+    margin-left: 5%;
+    width: 18.7%;
+	}
+.flexslider .five-slides {
+	width:15.2%;
+	margin-left:4%;
+	float:left;
+	}
+.flexslider .six-slides {
+	width:11%;
+	margin-left:4.7%;
+	float:left;
+	}
+/*---vertical orientation---*/
+.psc-vertical ul.slides {
+	padding-top:20px;
+	}
+.psc-vertical ul.flex-direction-nav a.prev {
+    background: url("../images/sliding-arrows.png") no-repeat scroll 0 -32px transparent;
+    left: 43%;
+    margin-top: 0;
+    text-indent: -9999px;
+    top: 0;
+	}
+.psc-vertical ul.flex-direction-nav a.next {
+	background: url("../images/sliding-arrows.png") no-repeat scroll -32px -32px transparent;
+	left:43%;
+	bottom:0;
+	top:auto;
+	text-indent: -9999px;
+	}
+.psc-vertical .one-slide {
+	float:left;
+	margin-left: 0;
+	margin-bottom: 4.5%;
+    height: 72%;
+    width: 95%;
+	}
+.psc-vertical .two-slides {
+    float: left;
+    margin-left: 0;
+    margin-bottom: 5%;
+    height: 42.5%;
+    width: 95%;
+	}
+.psc-vertical .three-slides {
+	float: left;
+	margin-bottom: 2.2%;
+	margin-left: 0;
+	width: 95%;
+	}
+.psc-vertical .four-slides {
+    float: left;
+    margin-left: 0;
+    margin-bottom: 5%;
+    height: 18.7%;
+	width: 95%;
+	}
+.psc-vertical .five-slides {
+	height:15.2%;
+	width: 95%;
+    margin-left: 0;
+    margin-bottom: 5%;
+	float:left;
+	}
+.psc-vertical .six-slides {
+	height:15%;
+    width: 95%;
+    margin-left: 0;
+    margin-bottom: 5%;
+	float:left;
+	}

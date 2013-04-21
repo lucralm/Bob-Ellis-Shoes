@@ -1,0 +1,149 @@
+/*Custom Blank styling  */
+/*Copy to your theme's css stylesheet to avoid losing changes if you update this  */
+
+/*---div that contains entire slider/carousel---*/ 
+.flexslider,
+.flexslider ul.slides {
+	padding:0;
+	margin:0;
+	}
+/*---style the li that contains each product--*/ 
+.flexslider ul.slides li {
+	list-style:none;
+	}
+.flexslider ul.slides li .psc-prod-container .img-wrap {
+	
+	}
+	.flexslider ul.slides li .psc-prod-container .img-wrap:hover {
+
+		}
+.flexslider ul.slides li img {
+
+	}
+	.flexslider ul.slides li img:hover  {
+
+		}
+.flexslider .psc-prod-details {
+
+		}
+/*---wrap to style the product image--*/ 
+.flexslider ul.slides li .psc-prod-container .img-wrap {
+    padding: 4px;
+	margin-bottom: 1.2em;
+	}
+	.flexslider ul.slides li .psc-prod-container .img-wrap:hover {
+
+		}
+		.flexslider ul.slides li .psc-prod-container .img-wrap img {
+			margin:0 auto;
+			}
+		/*---title of the product---*/ 
+		.flexslider span.title {
+			display: block;
+			}
+		/*---price of the product---*/ 
+		.flexslider span.amount {
+			color:#5A5A5A;
+			display: block;
+			}
+/*---ul containing the nav buttons/arrows---*/ 
+.flexslider ul.flex-direction-nav {
+
+	}
+	.flexslider ul.flex-direction-nav li {
+		list-style:none;
+		}
+	/*---previous button/arrow---*/ 
+	.flexslider ul.flex-direction-nav a.prev {
+		background: url("../images/sliding-arrows.png") no-repeat scroll 0 0 transparent;
+		display: block;
+		height: 32px;
+		left: 0;
+		top:33%;
+		text-indent: -9999px;
+		width: 32px;
+		}
+	.flexslider ul.flex-direction-nav a.next {
+		background: url("../images/sliding-arrows.png") no-repeat scroll -32px 0 transparent;
+		display: block;
+		height: 32px;
+		right: 0;
+		top:33%;
+		text-indent: -9999px;
+		width: 32px;
+		}
+/*---ol containing the control nav bullet slide indicators---*/ 
+.flexslider ol.flex-control-nav {
+
+	}
+	/*---control nav bullets---*/ 
+	.flexslider ol.flex-control-nav li {
+
+		}
+		.flexslider ol.flex-control-nav li a {
+
+			}
+/*---Styles determining width of the product div containers---*/ 
+.flexslider ul.slides li div:first-child {
+
+	}
+.flexslider ul.slides li div:last-child {
+	
+	}
+
+/*---styles determining width of the product div containers---*/ 
+.flexslider .one-slide {
+	float:left;
+	margin-left: 4%;
+    width: 92%;
+	}
+.flexslider .two-slides {
+    float: left;
+    margin-left: 5%;
+    width: 42.5%;
+	}
+.flexslider .three-slides {
+    float: left;
+    margin-left: 5%;
+    width: 26.6%;
+	}
+.flexslider .four-slides {
+    float: left;
+    margin-left: 5%;
+    width: 18.7%;
+	}
+.flexslider .five-slides {
+	width:15.2%;
+	margin-left:4%;
+	float:left;
+	}
+.flexslider .six-slides {
+	width:15%;
+	margin-left:2%;
+	float:left;
+	}
+/*---vertical orientation---*/
+.psc-vertical  ul.slides .psc-prod-container {
+    margin: 10% auto 0;
+    width: auto;
+	}
+.psc-vertical ul.flex-direction-nav a.prev {
+    background: url("../images/sliding-arrows.png") no-repeat scroll 0 -32px transparent;
+    display: block;
+    height: 32px;
+    left: 24%;
+    margin-top: 0;
+    text-indent: -9999px;
+    top: 0;
+    width: 32px;
+	}
+.psc-vertical ul.flex-direction-nav a.next {
+	background: url("../images/sliding-arrows.png") no-repeat scroll -32px -32px transparent;
+	display: block;
+	height: 32px;
+	left:24%;
+	bottom:0;
+	top:auto;
+	text-indent: -9999px;
+	width: 32px;
+	}

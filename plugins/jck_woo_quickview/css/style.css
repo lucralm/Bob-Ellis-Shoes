@@ -1,0 +1,94 @@
+.hide {
+	display: none;
+}
+
+.jck_quickview_button {
+	display: none;
+	height: 36px;
+	width: 36px;
+	background: url('../img/quickview.png') no-repeat 0 0;
+	margin: -36px 0 0 -6px;
+	position: relative;
+	z-index: 20;
+}
+
+.jck_quickview:before,
+.jck_quickview:after {
+    content: "";
+    display: table;
+} 
+.jck_quickview:after {
+    clear: both;
+}
+.jck_quickview {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+    width: 800px;
+	margin: 5px;
+}
+	.jck_quickview .images {
+		float: left;
+		display: inline;
+		margin: 0 !important;
+		width: 48%;
+		height: auto;
+	}
+		.jck_quickview .images .attachment-shop_single {
+			width: 100%;
+			height: auto;
+		}
+		.jck_quickview .thumbnails {
+			margin: 10px 0 0;
+		}
+			.jck_quickview .thumbnails .jck_quickview_thumb {
+				float: left;
+				display: inline;
+				height: auto;
+				width: auto;
+				margin: 0 0 2.5%;
+			}
+			.jck_quickview .thumbnails .jck_quickview_thumb.first,
+			.jck_quickview .thumbnails .jck_quickview_thumb.last {
+				margin-left: 0;
+				margin-right: 0;
+			}
+			.jck_quickview .thumbnails .quickviewThumbs-3col {
+				width: 31.66%;
+			}
+		
+	.jck_quickview .summary,
+	.woocommerce-page div.jck_quickview.product div.summary {
+		display: inline;
+		float: right;
+		width: 48%;
+		padding: 10px 0;
+		margin-bottom: 0;
+	}
+		.jck_quickview .summary h1 {
+			padding: 0;
+			margin: 0;
+			font-size: 22px;
+			line-height: 1em;
+		}
+		.jck_quickview .summary td.price {
+			min-width: 160px;
+		}
+		.jck_quickview .summary .quantity {
+			float: left;
+			width: auto;
+			display: inline;
+			margin: 0 15px 0 0;
+			min-width: 60px;
+		}
+		.jck_quickview .summary .button {
+			margin: 0;
+		}
+		.jck_quickview .summary .reset_variations {
+			clear: both;
+			display: block;
+			margin: 10px 0 0;
+		}
+		
+		.jck_quickview .summary .product_meta {
+			clear: both;
+			margin: 25px 0 0;
+		}

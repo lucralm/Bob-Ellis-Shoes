@@ -1,0 +1,198 @@
+/* Modern styling  */
+
+
+/*---div that contains entire slider/carousel---*/ 
+.flexslider,
+.flexslider ul.slides {
+	padding:0;
+	margin:0;
+	}
+/*---style the li that contains each product--*/ 
+.flexslider ul.slides li {
+	list-style:none;
+	}
+.flexslider ul.slides li .psc-prod-container {
+	border: 1px solid #E5E5E5;
+    box-shadow: 0 0 3px 0 #EDEDED;
+	-moz-box-shadow: 0 0 3px 0 #EDEDED;
+	-webkit-box-shadow: 0 0 3px 0 #EDEDED;
+    padding: 0.75em;
+}
+.flexslider ul.slides li .psc-prod-container .img-wrap {
+	
+	}
+	.flexslider ul.slides li .psc-prod-container .img-wrap:hover {
+
+		}
+.flexslider ul.slides li img {
+	border: 1px solid #E5E5E5;
+	}
+	.flexslider ul.slides li img:hover  {
+
+		}
+.flexslider .psc-prod-details {
+
+		}
+/*---wrap to style the product image--*/ 
+.flexslider ul.slides li .psc-prod-container .img-wrap {
+
+	}
+	.flexslider ul.slides li .psc-prod-container .img-wrap:hover {
+		}
+		.flexslider ul.slides li .psc-prod-container .img-wrap img {
+			margin:0 auto;
+			}
+		/*---title of the product---*/ 
+		.flexslider span.title {
+			color: #000;
+			font-size:1.3em;
+			font-family:	"Muli",sans-serif;
+			display: block;
+			font-weight:700;
+			}
+			.flexslider span.title a {
+				display: block;
+				}	
+		/*---price of the product---*/ 
+		.flexslider span.amount {
+			color:#DC3022;
+			display: inline;
+			font-family:	"Muli",sans-serif;
+			}
+/*---ul containing the nav buttons/arrows---*/ 
+.flexslider ul.flex-direction-nav {
+
+	}
+	.flexslider ul.flex-direction-nav li {
+	list-style:none;
+	width:
+	}
+	/*---previous button/arrow---*/ 
+	.flexslider ul.flex-direction-nav a.prev {
+		background: url("../images/merchant-arrows.png") no-repeat scroll 0 0 transparent;
+		display: block;
+		height: 32px;
+		left: 0;
+		top:0;
+		margin-top:10%;
+		text-indent: -9999px;
+		width: 32px;
+		}
+	.flexslider ul.flex-direction-nav a.next {
+		background: url("../images/merchant-arrows.png") no-repeat scroll -32px 0 transparent;
+		display: block;
+		height: 32px;
+		right: 0;
+		top:0;
+		margin-top:10%;
+		text-indent: -9999px;
+		width: 32px;
+		}
+/*---ol containing the control nav bullet slide indicators---*/ 
+.flexslider ol.flex-control-nav {
+
+	}
+	/*---control nav bullets---*/ 
+	.flexslider ol.flex-control-nav li {
+
+		}
+		.flexslider ol.flex-control-nav li a {
+
+			}
+/*---Styles determining width of the product div containers---*/ 
+.flexslider ul.slides li div:first-child {
+
+	}
+.flexslider ul.slides li div:last-child {
+	
+	}
+
+/*---styles determining width of the product div containers---*/ 
+.flexslider .one-slide {
+	float:left;
+	margin-left: 4%;
+    width: 89.5%;
+	}
+.flexslider .two-slides {
+    float: left;
+    margin-left: 5%;
+    width: 42.5%;
+	}
+.flexslider .three-slides {
+    float: left;
+    margin-left: 5%;
+    width: 26.7%;
+	}
+.flexslider .four-slides {
+    float: left;
+    margin-left: 5%;
+    width: 18.7%;
+	}
+.flexslider .five-slides {
+	width:15.2%;
+	margin-left:4%;
+	float:left;
+	}
+.flexslider .six-slides {
+	float: left;
+    margin-left: 3.2%;
+    width: 13%;
+	}
+/*---vertical orientation---*/
+
+.psc-vertical ul.flex-direction-nav a.prev {
+	background: url("../images/merchant-arrows.png") no-repeat scroll 0 -32px transparent;
+    left: 43%;
+    margin-top: 0;
+    text-indent: -9999px;
+    top: 0;
+	}
+.psc-vertical ul.flex-direction-nav a.next {
+	background: url("../images/merchant-arrows.png") no-repeat scroll -32px -32px transparent;
+	left:43%;
+	bottom:0;
+	top:auto;
+	text-indent: -9999px;
+	}
+.psc-vertical .one-slide {
+	float:left;
+	margin-left: 0;
+	margin-bottom: 4.5%;
+    height: 72%;
+    width: 95%;
+	}
+.psc-vertical .two-slides {
+    float: left;
+    margin-left: 0;
+    margin-bottom: 5%;
+    height: 42.5%;
+    width: 95%;
+	}
+.psc-vertical  .three-slides {
+	float: left;
+    height: 33%;
+    margin-bottom: 11%;
+    margin-left: 0;
+    width: 95%;
+}
+.psc-vertical .four-slides {
+    float: left;
+    margin-left: 0;
+    margin-bottom: 5%;
+    height: 18.7%;
+	width: 95%;
+	}
+.psc-vertical .five-slides {
+	height:15.2%;
+	width: 95%;
+    margin-left: 0;
+    margin-bottom: 5%;
+	float:left;
+	}
+.psc-vertical .six-slides {
+	height:15%;
+    width: 95%;
+    margin-left: 0;
+    margin-bottom: 5%;
+	float:left;
+	}

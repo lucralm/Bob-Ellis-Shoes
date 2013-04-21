@@ -1,0 +1,166 @@
+/* Cute Styling */
+
+/*---div that contains entire slider/carousel---*/ 
+.flexslider,
+.flexslider ul.slides {
+	background: #DDDDDD;
+	padding:10px 10px 10px 12px;
+	margin:0;
+	}
+/*---style the li that contains each product--*/ 
+.flexslider ul.slides li {
+	list-style:none;
+	}
+	.flexslider ul.slides li img:hover  {
+		 background: #FFF;
+		}
+.flexslider .psc-prod-details {
+    background: none repeat scroll 0 0;
+    text-align: center;
+    padding-left: 4%;
+    width: 98%;
+	}
+/*---wrap to style the product image--*/ 
+		.flexslider ul.slides li .psc-prod-container .img-wrap img {
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			margin:0 auto;
+			}
+		/*---title of the product---*/ 
+		.flexslider span.title {
+			color: #FFF;
+			font-size:1.3em;
+			font-family:san-serif;
+			display: block;
+			}
+			.flexslider span.title a {
+				display: block;
+				}
+		/*---price of the product---*/ 
+		.flexslider span.amount {
+			color:#222;
+			display: inline;
+			}
+/*---ul containing the nav buttons/arrows---*/ 
+	.flexslider ul.flex-direction-nav li {
+		list-style:none;
+		}
+	/*---previous button/arrow---*/ 
+	.flexslider ul.flex-direction-nav a.prev {
+    	background: url("../images/cutenav.png") no-repeat scroll transparent;
+		display: block;
+		width: 55px;
+		height: 70px;
+		left: -14px;
+		top:0;
+		margin-top:8%;
+		text-indent: -9999px;
+		}
+	.flexslider ul.flex-direction-nav a.next {
+		background: url("../images/cutenav.png") no-repeat scroll -60px 0px transparent;
+		display: block;
+		width: 55px;
+		height: 70px;
+		right: -13px;
+		top:0;
+		margin-top:8%;
+		text-indent: -9999px;
+		}
+/*---styles determining width of the product div containers---*/ 
+.flexslider .one-slide {
+	float:left;
+	margin-left: 4%;
+    width: 92%;
+	}
+.flexslider .two-slides {
+    float: left;
+    margin-left: 5%;
+    width: 42.5%;
+	}
+.flexslider .three-slides {
+    float: left;
+    margin-left: 5%;
+    width: 26.6%;
+	}
+.flexslider .four-slides {
+    float: left;
+    margin-left: 5%;
+    width: 18.7%;
+	}
+.flexslider .five-slides {
+	width:15.1%;
+	margin-left:4%;
+	float:left;
+	}
+.flexslider .six-slides {
+	width:11%;
+	margin-left:4.7%;
+	float:left;
+	}
+	/*---vertical orientation---*/
+.psc-vertical ul.flex-direction-nav a.prev {
+	background: url("../images/cutenav.png") no-repeat scroll 0 -70px transparent;
+	height: 56px;
+	left: 10%;
+	margin-top: -12px;
+	text-indent: -9999px;
+	top: 0;
+	width: 56px;
+	}
+.psc-vertical ul.flex-direction-nav a.next {
+	background: url("../images/cutenav.png") no-repeat scroll -56px -70px transparent;
+	left:10%;
+	bottom:-9px;
+	top:auto;
+	text-indent: -9999px;
+	width: 56px;
+	height: 56px;
+	}
+.psc-vertical .one-slide {
+	float:left;
+	margin-left: 0;
+	margin-bottom: 12%;
+	margin-top: 5%;
+    height: 100%;
+    width: 84%;
+	}
+.psc-vertical .two-slides {
+    float: left;
+    margin-left: 0;
+    margin-top: 4.5%;
+    margin-bottom: 5%;
+    height: 42.5%;
+    width: 84%;
+	}
+.psc-vertical .three-slides {
+	float: left;
+	margin-top: 6%;
+	margin-bottom: 15%;
+	margin-left: 0;
+	width: 84%;
+	}
+.psc-vertical .four-slides {
+    float: left;
+    margin-left: 0;
+	margin-top: 4.5%;
+    margin-bottom: 5%;
+    height: 18.7%;
+    width: 84%;
+	}
+.psc-vertical .five-slides {
+	height:15.2%;
+    width: 84%;
+    margin-left: 0;
+	margin-top: 4.5%;
+    margin-bottom: 5%;
+	float:left;
+	}
+.psc-vertical .six-slides {
+	height:15%;
+    width: 84%;
+    margin-left: 0;
+    margin-top: 4.5%;
+    margin-bottom: 5%;
+	float:left;
+	}
