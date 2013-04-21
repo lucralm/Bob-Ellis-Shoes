@@ -29,5 +29,10 @@
 			</div>
 		</div>
     </div>
+
+    <div id="featured-products-homepage" class="col-full">
+    	<hr>
+    	<?php mystile_featured_products();?>
+    </div>
 		
 <?php get_footer(); ?>
