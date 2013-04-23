@@ -73,10 +73,10 @@ jQuery(document).ready(function() {
 });
 </script>
 <?php
-if(get_field('action_popups', 'options')):
-while(has_sub_field('action_popups', 'options')):
+if(get_field('modal_popups', 'options')):
+while(has_sub_field('modal_popups', 'options')):
 ?>
-	<div id="<?php the_sub_field('action_id');?>" style="display:none;">
+	<div id="<?php the_sub_field('modal_id');?>" style="display:none;">
 		<?php the_sub_field('popup_text');?>
 	</div>
 <?php 

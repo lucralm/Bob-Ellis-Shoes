@@ -74,7 +74,7 @@ global $woo_options, $woocommerce;
 		<div id="quick-nav" class="three-columns col-full">
 			<?php while(has_sub_field('call_to_actions', 'options')): ?>
 			<div class="col-third">
-				<?php the_sub_field('main');?> <a href="#<?php the_sub_field('action_id');?>" rel="modal:open"><?php the_sub_field('action_text');?></a>
+				<?php the_sub_field('main');?> <a href="#<?php the_sub_field('modal_id');?>" rel="modal:open"><?php the_sub_field('action_text');?></a>
 			</div>
 			<?php endwhile; ?>
 		</div>

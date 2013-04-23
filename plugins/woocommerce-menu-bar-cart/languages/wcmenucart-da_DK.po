@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Menu Cart v1.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-02-26 14:52+0100\n"
+"Last-Translator: Philip Boulund <pb@wida.dk>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: da_DK\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#  woothemes
+#: wc_cart_nav.php:48
+msgid "New:"
+msgstr "Nyt:"
+
+# @ woothemes
+#: wc_cart_nav.php:48
+msgid "Turn your 404 traffic into sales with the"
+msgstr "Gør din 404-side til en ægte sælger med"
+
+# @ woothemes
+#: wc_cart_nav.php:48
+msgid "404 Silent Salesmen"
+msgstr "404 Silent Salesmen"
+
+# @ woothemes
+#: wc_cart_nav.php:48
+msgid "plugin - free on WordPress.org."
+msgstr "plugin - gratis på WordPress.org."
+
+#  woothemes
+#: wc_cart_nav.php:51
+msgid "Menu Cart Setup"
+msgstr "Menu Cart Setup"
+
+# @ woothemes
+#: wc_cart_nav.php:52
+msgid ""
+"Let's keep this simple! Just check the boxes next to the features you want."
+msgstr "Lad os gøre det simpelt! Sæt kryds ved de funktioner du vil have."
+
+# @ woothemes
+#: wc_cart_nav.php:59
+msgid "Set the name of the menu you want to display"
+msgstr "Skriv navnet på den menu du vil have Menu Cart vist"
+
+# @ woothemes
+#: wc_cart_nav.php:64
+msgid "Display cart always, even if it's empty."
+msgstr "Vis altid kurv, også når den er tom"
+
+# @ woothemes
+#: wc_cart_nav.php:69
+msgid "Don't display shopping cart icon (displayed by default)."
+msgstr "Vis ikke indkøbskurv-ikonet (bliver vist som standard)."
+
+# @ woothemes
+#: wc_cart_nav.php:74
+msgid "Display Items Only."
+msgstr "Vis kun antal produkter."
+
+# @ woothemes
+#: wc_cart_nav.php:78
+msgid "Display Price Only."
+msgstr "Vis kun pris."
+
+# @ woothemes
+#: wc_cart_nav.php:82
+msgid "Display both price and items."
+msgstr "Vis både pris og antal produkter."
+
+# @ woothemes
+#: wc_cart_nav.php:86
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+# @ woothemes
+#: wc_cart_nav.php:91
+msgid "Contribute"
+msgstr "Giv et bidrag"
+
+# @ woothemes
+#: wc_cart_nav.php:92
+msgid ""
+"This plugin is only possible because of your contributions. Please consider "
+"helping by:"
+msgstr ""
+"Dette plugin er kun tilgængeligt pga. dine bidrag. Vi vil være taknemmelig "
+"for din hjælp hvis du gad:"
+
+# @ woothemes
+#: wc_cart_nav.php:94
+msgid "Giving a small donation:"
+msgstr "Giv en lille donation:"
+
+# @ woothemes
+#: wc_cart_nav.php:94
+msgid "Donate"
+msgstr "Donér"
+
+# @ woothemes
+#: wc_cart_nav.php:96
+msgid "Rating/Reviewing this on WordPress:"
+msgstr "Bedøm dette plugin på WordPress:"
+
+# @ woothemes
+#: wc_cart_nav.php:96
+msgid "Review It"
+msgstr "Bedøm"
+
+# @ woothemes
+#: wc_cart_nav.php:98
+msgid "Offering ideas/expertise:"
+msgstr "Kom med idéer/ekspertise:"
+
+# @ woothemes
+#: wc_cart_nav.php:98
+msgid "Make Suggestion"
+msgstr "Kom med forslag"
+
+# @ woothemes
+#: wc_cart_nav.php:135
+msgid "View your shopping cart"
+msgstr "Vis din indkøbskurv"
+
+# @ woothemes
+#: wc_cart_nav.php:137
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d produkt"
+msgstr[1] "%d produkter"
